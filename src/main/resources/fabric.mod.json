@@ -1,1 +1,21 @@
 
+{
+  "schemaVersion": 1,
+  "id": "harpauto",
+  "version": "${version}",
+  "name": "HarpAuto Pro",
+  "description": "Standalone Melody's Harp 90%+ Humanized Mod for Fabric 26.2",
+  "authors": ["User"],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.harpauto.HarpAutoMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~26.2",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
